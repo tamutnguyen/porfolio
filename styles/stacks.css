@@ -1,0 +1,177 @@
+@media (min-width: 1200px) {
+    body{
+        overflow-x: auto;
+        overflow-y: scroll;
+        height: 100%;
+        --scrollbar-width: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        background: transparent;
+        border: 0;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+        background-color:#171755;
+    }
+    header{
+        background-color: #1562a9;
+        border-bottom: var(--brwb-scrl, 0) solid var(--screenwidth-corvid-border-color, rgba(var(--brd-scrl, var(--color_15, color_15)), var(--alpha-brd-scrl, 1)));
+        border-top: var(--brwt-scrl, 0) solid var(--screenwidth-corvid-border-color, rgba(var(--brd-scrl, var(--color_15, color_15)), var(--alpha-brd-scrl, 1)));
+        box-shadow: var(--shd-scrl, 0 0 5px rgba(0, 0, 0, .5));
+        color:#fff;
+        position: sticky;
+    }
+    
+    .flex{
+        display: flex;
+    }
+    nav{
+        width: 80%;
+        margin-left:80%;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        padding: 0 10px;
+        display: inline-block;
+        text-align: right; 
+        line-height: 37px;
+        font-size: 15px;
+        font-weight: bold;    
+    }
+    .marginTop{
+        margin-top: 10px;
+    }
+    .header{
+        font-size: 80px;
+        font-weight: bold;
+        color:#fff;
+        padding: 5px;
+        border-bottom: dotted 1px #fff ;
+    }
+    section{
+        margin:0 auto;
+    }
+    section>div{
+        border-radius:10px;
+        height: fit-content;
+        width: 30%;
+        border-color: #fff;
+        border: dotted 1px #fff;
+        color: #fff;
+        margin:1%;
+        text-align: center;
+    }
+    section>div>img{
+        width:200px;
+        border-radius:150px;
+        
+        padding:10px;
+    }
+    section>div>span{
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+    footer{
+        margin-top:5px;
+        border: dotted 1px #fff;
+        padding:10px;
+        color:#fff;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color:#fff;
+    }
+    }
+    @media (max-width: 600px) {
+        body{
+            overflow-x: auto;
+            overflow-y: scroll;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            background: transparent;
+            border: 0;
+            margin: 0;
+            outline: 0;
+            padding: 0;
+            background-color:#171755;
+        }
+        header{
+            background-color: #1562a9;
+            border-bottom: var(--brwb-scrl, 0) solid var(--screenwidth-corvid-border-color, rgba(var(--brd-scrl, var(--color_15, color_15)), var(--alpha-brd-scrl, 1)));
+            border-top: var(--brwt-scrl, 0) solid var(--screenwidth-corvid-border-color, rgba(var(--brd-scrl, var(--color_15, color_15)), var(--alpha-brd-scrl, 1)));
+            box-shadow: var(--shd-scrl, 0 0 5px rgba(0, 0, 0, .5));
+            color:#fff;
+            position: sticky;
+        }
+        
+        .flex{
+            display: flex;
+            flex-direction: column;
+    
+        }
+        nav{
+            font-size: 18px;
+            font-weight: bold; 
+            margin:0 auto;
+        } 
+        ul{
+            list-style: none;
+        }
+        li{
+            padding: 0 10px;
+            display: inline-block;
+            text-align: left; 
+            line-height: 37px;
+            font-size: 15px;
+            font-weight: bold;    
+            color:white;
+        }
+        section{
+            margin:1%;
+        }
+        section>div{
+            border-radius:10px;
+            height: fit-content;
+            width: 100%;
+            border-color: #fff;
+            border: dotted 1px #fff;
+            color: #fff;
+            margin:1%;
+            text-align: center;
+        }
+        section>div>img{
+            width:200px;
+            border-radius:150px;
+            
+            padding:10px;
+        }
+        section>div>span{
+            font-size: 15px;
+            text-align: center;
+            color: white;
+        }
+        .header{
+            font-size: 80px;
+            font-weight: bold;
+            color:#fff;
+            padding: 5px;
+            border-bottom: dotted 1px #fff ;
+        }
+        footer{
+            margin-top:5px;
+            border: dotted 1px #fff;
+            padding:10px;
+            color:#fff;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+    }
