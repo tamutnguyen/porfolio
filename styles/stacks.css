@@ -65,8 +65,8 @@
         text-align: center;
     }
     section>div>img{
-        width:200px;
-        border-radius:150px;
+        height:200px;
+        border-radius:10px;
         
         padding:10px;
     }
