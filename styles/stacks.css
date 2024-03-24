@@ -54,6 +54,7 @@
     section{
         margin:0 auto;
     }
+    /**/
     section>div{
         border-radius:10px;
         height: fit-content;
